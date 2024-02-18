@@ -4,8 +4,6 @@
   переключая тему
 */
 
-.page.theme_dark {}
-
 :root.theme-dark {
   --page-color: #000028;
   --page-image: url(../images/cover-image-dark.png);
@@ -39,5 +37,3 @@
   --main-font: "IBM Plex Mono", Sans-Serif;
   --main-line-height: 23.46px;
 }
-
-@media (prefers-color-scheme: dark) {}

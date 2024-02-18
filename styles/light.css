@@ -1,5 +1,3 @@
-.page.theme_light {}
-
 :root.theme-light {
   --page-color: #FFF1F7;
   --page-image: url(../images/cover-image-light.png);

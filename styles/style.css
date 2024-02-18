@@ -185,18 +185,14 @@
 .main__card:nth-child(2) {
   display: flex;
   flex-direction: column;
-}
 
-.main__card:nth-child(2) {
   .main__card-item-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-flow: column;
     align-items: start;
   }
-}
 
-.main__card:nth-child(2) {
   .main__card-title {
     display: grid;
     grid-template-columns: 1fr 2fr;
