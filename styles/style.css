@@ -175,6 +175,10 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+
+  .main__card-item-title {
+    font-weight: var(--title-weight);
+  }
 }
 
 .main__card-title {
@@ -206,12 +210,6 @@
 }
 
 .main__card:nth-child(1) {
-  .main__card-item-title {
-    font-weight: var(--title-weight);
-  }
-}
-
-.main__card:nth-child(2) {
   .main__card-item-title {
     font-weight: var(--title-weight);
   }
