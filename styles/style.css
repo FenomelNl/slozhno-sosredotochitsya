@@ -215,13 +215,18 @@
   }
 }
 
+.main__card-item-sublist {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .main__card-item-subtitle {
   color: var(--title-color-first);
   background-color: var(--title-decor);
   font-family: var(--main-font);
   font-size: var(--title-font-size);
   font-weight: var(--title-weight);
-  margin-bottom: 10px;
 }
 
 .main__card-item-text {
